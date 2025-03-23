@@ -145,29 +145,6 @@
 }
 
 
-#center {
-    height: 30rem;
-    background-color: black;
-}
-
-.middle {
-    height: 100%;
-    color: white;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content:center;
-    gap: 2rem;
-}
-
-.in {
-    font-size: 6rem;
-}
-
-.with {
-    font-size: 2rem;
-    color: grey;
-}
 
 
 
