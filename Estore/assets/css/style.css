@@ -1,237 +1,57 @@
-/* body {
-    font-family: Arial, sans-serif;
-    margin: 0;
-    padding: 0;
-}
-.navbar {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    background-color: #333;
-    padding: 10px 20px;
-}
-.navbar a {
-    color: white;
-    text-decoration: none;
-    padding: 10px 15px;
-}
-.navbar a:hover {
-    background-color: #575757;
-    border-radius: 5px;
-}
-.navbar .logo {
-    font-size: 24px;
-    font-weight: bold;
-}
-.navbar .nav-links {
-    display: flex;
-    list-style: none;
-    margin: 0;
-    padding: 0;
-}
-.navbar .nav-links li {
-    margin-left: 20px;
-}
-.navbar .search-signin {
-    display: flex;
-    align-items: center;
-}
-.navbar .search-signin input {
-    padding: 5px;
-    margin-right: 10px;
-    border-radius: 5px;
-    border: none;
-}
-.navbar .sign-in {
-    background-color: #4CAF50;
-    border-radius: 5px;
-/* } */
-#section {
-    height: 8rem;
-    
-}
-
-.image {
-    width: 102px;
-    height: 23px;
-}
-
 .nav {
-  
-    height: 10rem;
+    height: 100px;
+    display: flex;
+    align-items: center;
+   
     
-    display: flex;
-    justify-content: space-between;
-    font-size: 2rem;
-    align-items: center;
-  
 }
-
-.all_list {
-  
-    display: flex;
-    gap: 10rem;
-    align-items: center;
-    font-size: 2rem;
-}
-
 .list {
-    display: flex;
-    gap: 3rem;
-}
-
-.ulclass1 {
-   
-    display: flex;
-    gap: 5rem;
-    font-size: 2.5rem;
+    list-style-type: none;
     align-items: center;
-}
-
-.input {
-    position: relative;
-    width: 35%;
-
-}
-.search {
-    width: 100%;
-    height: 4rem;
-    color: #a29f9f;
-    border: 1px solid #eeeeee;
-    border-radius: 30px;
-    padding: 10px 20px;
-}
-
-.glass {
-    position: absolute;
-    top: 15px;
-    right: 12px;
-    font-size: 16px;
-    color: #6c6a6a;
-    font-weight: 900px;
-    line-height: 0;
-}
-
-.sign {
-    border-radius: 3rem;
-    background-color:#2577fd;;
-    padding:10px 20px;
-    color: white;
-    font-size: 2rem;
-    border-color: #2577fd;
-   
-}
-.twice{
     display: flex;
-    
-    border-radius: 0.5rem;
-    background-color: black;
-    color: white;
-    padding: 5px 5px;
-    
-}
-.twice{
-   display: none; 
-}
-
-@media (max-width: 1136px){
-    .twice{
-      display: block;
-     
-    }
-    .all_list{
-       display: none;
-    }
-}
-
-
-
-
-
-
-
-
-
-
-
-#main{
-    height: 10rem;
-    position: relative;
-
-}
-.h1_hero{
-    width: 100%;
+    gap: 10px;
     height: 100%;
-}
-.middle{
-    position:relative;
-   
-}
-.png{
-    position: absolute;
-    bottom: 0;
-    width: 600px;
-    height: 500px;
-    left: 10rem;
+    margin-bottom: 0;
     
-   
- 
- 
+
+ a {
+        color: black;
+        text-decoration: none;
+    }
+
     
 }
-.writer{
-    position: absolute;
-    right: 10px;
-    bottom: 80px;
-    font-size: 5rem;
-    right: 10rem;
-   
+a {
+    color: black;
+    text-decoration: none;
+}
+
+.col-5 {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+
+    .searching {
+        position: relative;
+        @media screen and (min-width:201px) and (max-width:991px) {
+            display: none;
+        }
+
+        input {
+            border: 1px solid #eeeeee;
+            border-radius: 30px;
+            padding: 10px 20px;
+        }
+
+        .search-icon {
+            position: absolute;
+            top: 12px;
+            right: 17px;
+        }
+
+    }
     
-}
-.discount{
-    font-family: "Yellowtail", cursive;
-    color: #2577fd;
-    font-size: 40px;
-}
-.cloth{
-    font-family: "Playfair Display", serif;
-    font-style: italic;
-    font-size: 2rem;
-}
-.now{
-    border-radius: 3rem;
-    padding: 1.5rem 3.5rem;
-    background-color: #2577fd;
-    color: white;
-    font-size: 1.8rem;   
-}
-.woman{
-    width: 502px;
-    height: 300px;
-}
-.girl{
-    width: 822px;
-    height: 500px;
-}
-.boy{
-    width: 822px;
-    height: 500px;
-}
-#all{
-    height: 9rem;
-    position: relative;
-  
-}
-.some{ display: flex;
-   
-}
-.great{
-    position:relative;
-    z-index: 1;
-}
-.middle_first{
-    position: relative;
+    
 }
 
 
- 
