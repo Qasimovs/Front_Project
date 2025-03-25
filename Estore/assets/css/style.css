@@ -345,11 +345,7 @@ margin: 0 auto;
     margin: 100px auto;
 
 }
-.infos{
-    display: flex;
-    flex-direction: column;
-    gap: 20px;
-}
+
 .container_photos{
     max-width: 1500px;
     margin: 80px auto;
@@ -373,11 +369,33 @@ margin: 0 auto;
 .link-secondary{
     text-decoration: none;
 }
-.container_info{
-    li{
-        list-style-type: none;
-    }
+#some{
+    margin-top: 180px;
 }
+
+.give{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    gap: 30px;
+    
+}
+.first{
+   display: flex;
+   flex-direction: column;
+   gap: 25px;
+}
+.second{
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+}
+.third{
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+}
+
 .football{
     gap: 15px;
     display: flex;
