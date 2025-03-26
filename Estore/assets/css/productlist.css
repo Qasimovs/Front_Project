@@ -260,7 +260,6 @@ main{
     border-radius: 30px;
     padding: 10px 20px;
     background-color: rgb(25, 29, 52);
-
 }
 
 .subscribe {
@@ -281,5 +280,41 @@ main{
     background-color: white;
    color: #2577fd;
 }
+.footer{
+   
+    margin-top: 120px;
+    height: 350px;
+}
+.jpg{
+    width: 102px;
+    height: 23;
+}
+.foot{
+    display:flex;
+    gap: 150px;
+    align-items: center;
+    margin-left: 150px;
+}
+.foot_one{
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+#final{
+    padding-bottom: 120px;
+}
+
+.finally{
+    display: flex;
+    justify-content: space-evenly;
+    
+}
+.globe{
+    display: flex;
+    gap: 20px;
+}
+
+
+
 
  

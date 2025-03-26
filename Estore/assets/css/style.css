@@ -340,35 +340,7 @@ margin: 0 auto;
         border: 0;
     }
 }
-.container_foot{
-    max-width: 1100px;
-    margin: 100px auto;
 
-}
-
-.container_photos{
-    max-width: 1500px;
-    margin: 80px auto;
-}
-.photo img{
-    width: 95%;
-   
-}
-.photos{
-    display: flex;
-    justify-content: center;
-}
-.link{
-    float: right;
-    }
-    .insta{
-       display: flex;
-       gap: 10px;
-    }
-    
-.link-secondary{
-    text-decoration: none;
-}
 #some{
     margin-top: 180px;
 }
@@ -396,17 +368,55 @@ margin: 0 auto;
     gap: 25px;
 }
 
-.football{
-    gap: 15px;
+.container_photos{
+    max-width: 1500px;
+    margin: 80px auto;
+}
+.photo img{
+    width: 95%;
+   
+}
+.photos{
     display: flex;
-    flex-direction: column;
-    ul{
-        display: flex;
-        flex-direction: column;
-        gap: 10px;
-    }
+    justify-content: center;
 }
 
+.footer{
+   
+    margin-top: 120px;
+    height: 350px;
+}
+.jpg{
+    width: 102px;
+    height: 23;
+}
+.foot{
+    display:flex;
+    gap: 150px;
+    align-items: center;
+    margin-left: 150px;
+}
+.foot_one{
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+#final{
+    padding-bottom: 120px;
+}
+
+.finally{
+    display: flex;
+    justify-content: space-evenly;
+    
+}
+.globe{
+    display: flex;
+    gap: 20px;
+}
+li{
+    list-style: none;
+}
 
 
 
